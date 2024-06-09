@@ -67,10 +67,10 @@ export const router = createBrowserRouter([
       path: "additems",
       element: <AdminRoute><AddItem/></AdminRoute>
      },
-     {
-      path: "manageitems",
-      element: <AdminRoute><ManageItem/></AdminRoute>
-     },
+    //  {
+    //   path: "manageitems",
+    //   element: <AdminRoute><ManageItem/></AdminRoute>
+    //  },
      {
         path: "updateitem/:id",
         element: <UpdateItem/>,
