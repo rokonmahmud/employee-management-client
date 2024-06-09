@@ -63,10 +63,10 @@ export const router = createBrowserRouter([
       path: "users",
       element: <AdminRoute><UserData/></AdminRoute>
      },
-     {
-      path: "additems",
-      element: <AdminRoute><AddItem/></AdminRoute>
-     },
+    //  {
+    //   path: "additems",
+    //   element: <AdminRoute><AddItem/></AdminRoute>
+    //  },
      {
       path: "manageitems",
       element: <AdminRoute><ManageItem/></AdminRoute>
@@ -74,7 +74,7 @@ export const router = createBrowserRouter([
      {
         path: "updateitem/:id",
         element: <UpdateItem/>,
-        loader: ({params})=> fetch(`http://localhost:5000/menus/${params.id}`)
+        loader: ({params})=> fetch(`https://employee-management-server-six.vercel.app/menus/${params.id}`)
      },
     ],
   },
