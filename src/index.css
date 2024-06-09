@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+a.active{
+    color: #3BBD5B !important;
+    background-color: transparent !important;
+    font-size: 20px;
+  }
+
+  .react-tabs__tab--selected{
+    color:#3BBD5B !important;
+    border-bottom: 3px solid #3BBD5B !important;
+    
+  }
+
+  a.text-xl.font-medium.uppercase.active{
+    color: #fff !important;
+    background-color: transparent !important;
+    font-size: 20px;
+  }
+
+  .tableHeading{
+    background-color: #3BBD5B;
+  }
+ .tdButton{
+  background-color: #3BBD5B;
+ }
