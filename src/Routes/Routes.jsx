@@ -59,10 +59,10 @@ export const router = createBrowserRouter([
         path: "cart",
         element: <CartSection/>,
       },
-    //  {
-    //   path: "users",
-    //   element: <AdminRoute><UserData/></AdminRoute>
-    //  },
+     {
+      path: "users",
+      element: <AdminRoute><UserData/></AdminRoute>
+     },
      {
       path: "additems",
       element: <AdminRoute><AddItem/></AdminRoute>
