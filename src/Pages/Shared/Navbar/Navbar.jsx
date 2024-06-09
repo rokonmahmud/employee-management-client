@@ -41,12 +41,12 @@ const Navbar = () => {
 
       <li>
         {" "}
-        {/* <NavLink
+        <NavLink
           className={`text-lg  focos:bg-white text-white`}
           to={"/dashbord"}
         >
           DASHBOARD
-        </NavLink>{" "} */}
+        </NavLink>{" "}
       </li>
 
       <li>
